@@ -1,0 +1,65 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.0,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"dec81508d",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "sentencizer":[
+
+    ],
+    "tok2vec":[
+
+    ],
+    "spancat":[
+      "Pricing",
+      "Governing Law",
+      "Effective Date",
+      "Term",
+      "Termination/Convenience",
+      "Assignment",
+      "Insurance",
+      "Non-solicit",
+      "License Grant",
+      "Notices"
+    ]
+  },
+  "pipeline":[
+    "sentencizer",
+    "tok2vec",
+    "spancat"
+  ],
+  "components":[
+    "sentencizer",
+    "tok2vec",
+    "spancat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "sents_f":1.0,
+    "sents_p":1.0,
+    "sents_r":1.0,
+    "spans_sc_f":0.0,
+    "spans_sc_p":0.0,
+    "spans_sc_r":0.0,
+    "spans_sentences_f":0.9783693844,
+    "spans_sentences_p":0.9907329402,
+    "spans_sentences_r":0.9663105998,
+    "tok2vec_loss":0.3828339116,
+    "spancat_loss":155.6714053843
+  }
+}

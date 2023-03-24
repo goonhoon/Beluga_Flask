@@ -1,0 +1,17 @@
+{
+  "labels":[
+    "Pricing",
+    "Governing Law",
+    "Effective Date",
+    "Term",
+    "Termination/Convenience",
+    "Assignment",
+    "Insurance",
+    "Non-solicit",
+    "License Grant",
+    "Notices"
+  ],
+  "spans_key":"sentences",
+  "threshold":0.5,
+  "max_positive":null
+}
