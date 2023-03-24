@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {
-            "src": ".flaskapp/index.py",
+            "src": ".FlaskApp/webapp.py",
             "use": "@vercel/python"
         }
     ],
